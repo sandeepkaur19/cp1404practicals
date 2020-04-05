@@ -22,17 +22,6 @@ for number in numbers:
 for i, number in enumerate(numbers):
     print("Number {0} is {1:>5}".format(i + 1, number))
 
-# TODO: Use string formatting to produce the output:
-# 1922 Gibson L-5 CES for about $16,035!
-
 print("{} {} for about ${:,.0f}!".format(year, name, cost))
-
-# TODO: Using a for loop with the range function and string formatting,
-# produce the following right-aligned output (do not use a list):
-#   0
-#  50
-# 100
-# 150
-
 for number in range(0, 151, 50):
     print("{:3}".format(number))
